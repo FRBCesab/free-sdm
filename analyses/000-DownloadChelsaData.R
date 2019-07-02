@@ -29,11 +29,6 @@
 ################################################################################
 
 
-### Project Path                  -------------------
-
-root_path <- "~/Desktop/free-sdm/"
-
-
 ### Load Addings                  -------------------
 
 source(paste0(root_path, "R/list_chelsa_cmip5.R"))

@@ -1,6 +1,32 @@
-### Project Path                  -------------------
-
-root_path <- "~/Desktop/free-sdm"
+################################################################################
+###                                                                          ###
+###                             SPLIT SPECIES LIST                           ###
+###                                                                          ###
+###--------------------------------------------------------------------------###
+###                                                                          ###
+### AUTHORS : Nicolas Casajus                                                ###
+### DATE    : 2019/07/02                                                     ###
+###                                                                          ###
+###--------------------------------------------------------------------------###
+###                                                                          ###
+### - This R script splits species list in 3 users (old-school               ###
+###   parallelization).                                                      ###
+###                                                                          ###
+###--------------------------------------------------------------------------###
+###                                                                          ###
+### > sessionInfo()                                                          ###
+###                                                                          ###
+### R version 3.5.3 (2019-03-11)                                             ###
+### Platform: x86_64-apple-darwin15.6.0 (64-bit)                             ###
+### Running under: macOS Mojave 10.14.5                                      ###
+###                                                                          ###
+### locale:                                                                  ###
+### [1] fr_FR.UTF-8/fr_FR.UTF-8/fr_FR.UTF-8/C/fr_FR.UTF-8/fr_FR.UTF-8        ###
+###                                                                          ###
+### attached base packages:                                                  ###
+### [1] stats     graphics  grDevices utils     datasets  methods   base     ###
+###                                                                          ###
+################################################################################
 
 
 ### Import Species Synthesis      -------------------
