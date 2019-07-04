@@ -23,10 +23,12 @@
 ### [1] fr_FR.UTF-8/fr_FR.UTF-8/fr_FR.UTF-8/C/fr_FR.UTF-8/fr_FR.UTF-8        ###
 ###                                                                          ###
 ### attached base packages:                                                  ###
-### [1] stats     graphics  grDevices utils     datasets  methods   base     ###
+### [1] parallel stats graphics grDevices utils datasets methods base        ###
 ###                                                                          ###
 ### other attached packages:                                                 ###
-### [1] raster_2.8-19    sp_1.3-1                                            ###
+### [1]  doParallel_1.0.14 iterators_1.0.10 foreach_1.4.4 biomod2_3.3-7.1    ###
+### [5]  ggplot2_3.1.0 reshape_0.8.8 raster_2.9-5 rgeos_0.4-3 rgdal_1.4-4    ###
+### [10] sp_1.3-1                                                            ###
 ###                                                                          ###
 ################################################################################
 
