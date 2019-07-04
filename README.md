@@ -11,7 +11,7 @@ at a global scale (50km x 50km resolution) under 5 GCMs coupled with the RCP8.5 
 Clone the repository and edit `coreProgram.R` (essentially `path`, `user` and `n_cores` variables). And then, on a shell:
 
 ```bash
-Rscript -e '~/free-sdm/coreProgram.R'
+Rscript ~/free-sdm/coreProgram.R
 ```
 
 ## Authors
