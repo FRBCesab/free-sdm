@@ -8,12 +8,11 @@ at a global scale (50km x 50km resolution) under 5 GCMs coupled with the RCP8.5 
 
 ## Usage and workflow
 
-Clone the repository and edit `coreProgram.R` (essentially `path`, `user` and `n_cores` variables).
+Clone the repository and edit `coreProgram.R` (essentially `path`, `user` and `n_cores` variables). And then, on a shell:
 
-
-## Data sources
-
-...
+```bash
+Rscript -e '~/free-sdm/coreProgram.R'
+```
 
 ## Authors
 
