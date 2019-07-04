@@ -1,2 +1,6 @@
 .DS_Store
 data/raw/climate/*
+data/ready/species/_mask/*
+data/ready/species/_occ/*
+outputs/*
+
