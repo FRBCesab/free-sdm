@@ -1,3 +1,8 @@
+### Horizons Names                -------------------
+
+baseline <- "1979-2013"
+horizons <- c("2041-2060", "2061-2080")
+
 
 ### Max. Dispersion (in meters)   -------------------
 
@@ -8,15 +13,15 @@ dist_birds   <- 4000000
 ### Models Parameters             -------------------
 
 mod.models           <- c("RF", "GLM", "GAM", "GBM")
-mod.n.rep            <- 4
+mod.n.rep            <-  4
 mod.data.split       <- 80
-mod.var.import       <- 0
+mod.var.import       <-  0
 mod.models.eval.meth <- "TSS"
 
 
-### Models Options                -------------------
+### Algo Options                  -------------------
 
-bm.opt <- BIOMOD_ModelingOptions(
+bm.opt <- biomod2::BIOMOD_ModelingOptions(
   GLM = list(
     type              = "quadratic",
     interaction.level = 0,
